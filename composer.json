@@ -1,0 +1,14 @@
+{
+    "name": "khang/mau",
+    "description": "sourse_online",
+    "autoload": {
+        "psr-4": {
+            "App\\": "App/"
+        }
+    },
+    "authors": [{
+        "name": "Khang0904-web",
+        "email": "nguyenhoangkhang123ks@gmail.com"
+    }],
+    "require": {}
+}
