@@ -12,7 +12,8 @@ class Register extends BaseView
             <div class="row justify-content-center">
                 <div class="col-md-6">
                     <h2 class="text-center mb-4">Register</h2>
-                    <form>
+                    <form action="/register" method="post">
+                        <input type="hidden" name="method" value="POST">
                         <!-- Username -->
                         <div class="mb-3">
                             <label for="username" class="form-label">Username</label>
@@ -48,6 +49,6 @@ class Register extends BaseView
             </div>
         </div>
 
-    <?php
+        <?php
     }
 }
